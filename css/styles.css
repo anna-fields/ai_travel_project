@@ -1,0 +1,86 @@
+body{
+background: radial-gradient(circle at 10% 20%, rgba(216, 241, 230, 0.46) 0.1%, rgba(233, 226, 226, 0.28) 90.1%);
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.question{
+    background-color: rgb(255, 255, 255);
+    max-width: 80%;
+    margin: 60px auto;
+    margin-top: 80px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+}
+
+h1{
+    color: #474744;
+    text-align: center;
+    font-size: 36px;
+}
+
+h1:hover{
+    color: #2994b2;
+}
+
+h2{
+    color: #545450;
+    text-align: center;
+    font-size: 28px;
+    margin: 40px;
+}
+
+h2:hover{
+    color:#ffb400;
+}
+
+.inputs{
+    text-align: center;
+    margin: 40px;
+}
+
+#city{
+    padding: 16px;
+    width: 70%;   
+}
+
+#submit{
+    padding: 10px;
+    background-color: #EEF8F2;
+    border: solid;
+    border-color: #EEF8F2;
+    color:#474744
+}
+
+#submit:hover{
+    background-color: #2994b2 ;
+    color: #ffb400;
+}
+
+.response{
+    background-color: rgb(255, 255, 255);
+    max-width: 80%;
+    margin: 60px auto;
+    padding: 20px;
+    box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+    border-radius: 10px;
+}
+
+.response:hover{
+    border: dashed 2px #2994b2;
+}
+
+
+footer{
+color: #474744;
+text-align: center;
+}
+
+footer a{
+    color: #2994b2;
+}
+
+footer a:hover{
+    color: #ffb400;
+}
+
