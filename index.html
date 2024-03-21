@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI Travel Guide</title>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="css/styles.css">
+
 </head>
 
 <body>
@@ -15,15 +17,13 @@
         </header>
         <main>
             <h2>Find here the best suggestions for your next travel</h2>
-            <div class="inputs">
-                <input type="text" id="city" placeholder="Enter the name of the city your going to" autofocus required>
-                <input type="submit" id="submit">
-            </div>
+            <form class="inputs" id="question">
+                <input type="text" id="city" placeholder="Enter the name of the city your going to" autofocus
+                    required />
+                <input type="submit" id="submit" />
+            </form>
     </div>
-    <div class="response">
-        The suggestions will appear here
-        <br>
-        The suggestions will appear here
+    <div class="response" id="response">
     </div>
     </main>
 
