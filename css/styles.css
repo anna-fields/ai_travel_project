@@ -70,6 +70,10 @@ h2:hover{
     border: dashed 2px #2994b2;
 }
 
+.hidden{
+    display:none;
+}
+
 
 footer{
 color: #474744;

@@ -7,8 +7,6 @@ function displaySuggestions(response){
   });
 }
 
-
-
 function generateAnswer (event){
     event.preventDefault();
 
@@ -19,9 +17,11 @@ function generateAnswer (event){
     let context="You are a tourist attractions expert and love to give new suggestions to tourists. Your mission is to give the tourist 4 attractions about the city they want to visit. Give only the name of the attractions in basic HTML, in bulletpoints separated by a <br/> and never use <strong>.";
     let apiUrl=`https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
+let responseElement=document.querySelector("#response");
+responseElement.classList.remove("hidden");
+responseElement.innerHTML=`Generating suggestions about ${instructionsInput.value}...`;
+
 axios.get(apiUrl).then(displaySuggestions);
-
-
 }
 
 let formElement=document.querySelector("#question");
